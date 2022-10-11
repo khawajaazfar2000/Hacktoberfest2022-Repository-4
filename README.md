@@ -1,19 +1,28 @@
-Welcome To HacktoberFest 2022
-we heartily welcome you do contribute in my project.
+<p align="center">
+    <a href="https://hacktoberfest.digitalocean.com/">
+        <img src="https://raw.githubusercontent.com/keshavsingh4522/hacktoberfest2021/35fc6060c5ddead5792f29a2437fea160dbe9804/Assets/logo-hacktoberfest-full.f42e3b1.svg" width="30%">
+    </a>
+</p>
 
-HOW TO CONTRIBUTE
+<h1 align="center"> Hacktoberfest 2022 🎉</h1>
 
-1. Create Fork
-2. A clone will created 
-3. Copy the url
-4. Open cmd or terminal
-5. write code there (git clone "paste url")
-6. Go to the folder and do some changes in it.
-7. Create new branch (git branch file-name) and check status (git checkout file-name)
-8. now write these code : git status
-                          git add .
-                          git commit -m "changes"
-                          git push origin file-name
-9. Goto your github profile now compare and pull request.
+# Note
+```py
+'''
+Always try to make more then 4 pull requests.
+Let's assume you have made only 4 pull request to different projects.
+but one project is excluded from hackoctoberfest event.
+Then your pull request will not be counted and you will just have 3 valid pull requests.
+If this happens then you will not get any swags or t-shirt.
+'''
+```
 
-Hurray you did it 
+
+<br>
+
+## ⏳ Steps to Follow : 
+
+   - [X] **Register for [Hacktoberfest](https://hacktoberfest.digitalocean.com/) and get started to make your first PR.**
+   - [X] **Make 4 valid PRs during the period of (1st - 31st) October to earn cool swags.**
+
+ <br>

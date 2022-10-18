@@ -2,7 +2,7 @@
 using namespace std;
 
 int linearSearch(int n, int array[], int x) {
-    for(int i=0;i<n;i++) if(array[i]==x) return i+1;
+    for(int i=0;i<n;i++) if(array[i]==x) return i;
     return -1;
 }
 

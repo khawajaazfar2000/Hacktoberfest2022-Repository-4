@@ -1,18 +1,27 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
-int linearSearch(int n, int array[], int x) {
-    for(int i=0;i<n;i++) if(array[i]==x) return i+1;
+int search(int arr[], int n, int x)
+{
+    int i;
+    for (i = 0; i < n; i++)
+        if (arr[i] == x)
+            return i;
     return -1;
 }
-
-int main(void) {
-  int array[] = {3, 4, 5, 6, 7, 8, 9};
-  int x = 4;
-  int n = sizeof(array) / sizeof(array[0]);
-  int result = linearSearch(n, array, x);
-  if (result == -1)
-    printf("Not found");
-  else
-    printf("Element is found at index %d", result);
+ 
+// Driver code
+int main()
+{
+    int arr[] = { 3, 4, 1, 7, 5 };
+    int n = sizeof(arr) / sizeof(arr[0]);
+    int x = 4;
+ 
+    int index = search(arr, n, x);
+    if (index == -1)
+        cout << "Element is not present in the array";
+    else
+        cout << "Element found at index " << index;
+ 
+    return 0;
 }

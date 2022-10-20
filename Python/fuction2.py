@@ -1,0 +1,5 @@
+print('Enter a name')
+name=input()
+print('Enter college name')
+college_name=input()
+print('My name is ' +name+ ' and my college name is ' +college_name)

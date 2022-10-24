@@ -6,7 +6,7 @@ Solution to Leetcode
 link to problem: https://leetcode.com/problems/minimum-index-sum-of-two-lists/
 
 T stands for Time Complexity
- 
+S stands for Space Complexity
 """
 
 from typing import List

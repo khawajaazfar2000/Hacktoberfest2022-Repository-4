@@ -13,6 +13,9 @@ bool isPrime(int n)
 
 int main()
 {
-	isPrime(11) ? cout << " true\n" : cout << " false\n";
+	int number;
+	cout<<"Enter the number to check: ">>endl;
+	cin>>number;
+	isPrime(number) ? cout << " true\n" : cout << " false\n";
 	return 0;
 }

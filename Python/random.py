@@ -1,3 +1,3 @@
-import random
-x=random.random()+5
+import random as rd
+x=rd.random()+5
 print(x)
